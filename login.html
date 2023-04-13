@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Upload</title>
+     <!-- bootstrap css -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+<link rel="stylesheet" href="assets/css/style.css" class="">
+</head>
+
+<body class="bg-warning">
+  <div class="text-center">
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+      style="width: 185px;" alt="logo">
+  </div>
+ <div class="container align-items-center text-center">
+  <div class="row justify-content-center align-items-center
+  inner-row form-control mt-1 mx-1 text-center">
+    <div class="col">
+      <div class="form-box login-form p-2">
+        <div class="form-title">
+          <!-- login -->
+          <h2 class="fw-bold mb-3"> Login</h2>
+        </div>
+        <form action="">
+          <div class="form mb-3">
+            <div>
+            <label for="emailInput">Enter Email</label></div>
+            <input type="email"  class="form-control-sm mt-2"
+            placeholder="enter email" id="floatinInput" required>
+           
+          </div>
+          <div class="form mb-3">
+          <div><label for="password">Enter Password</label></div>
+            <input type="password"  class="form-control-sm mt-2 "
+            placeholder="enter password" id="floatPassword" required>
+            
+          </div>
+          <div class="mt-3">
+            <button id="loginBtn" class="btn btn-primary btn-md" > Login</button>
+          </div>
+          <div class="mt-3">
+            <span>Don't have an account?</span>
+            <button class="btn signup-show btn-info"> Sign Up</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- signup -->
+      <div class="form-box signup-form p-2 mt-0">
+        <div class="form-title">
+          <h2 class="fw-bold mb-2"> Create Your Account</h2>
+        </div>
+        <form action="">
+          <div class="form mb-3">
+          <div><label for="firstName">Enter FirstName</label></div>
+            <input type="text" class="form-control-sm mt-2"
+            placeholder="enter firstName" id="firstName" required>
+          </div>
+          <div class="form mb-3">
+          <div> <label for="lastName">Enter LastName</label></div>
+            <input type="text" class="form-control-sm mt-2"
+            placeholder="enter lastName" id="lastName" required>
+          </div>
+          <div class="form mb-3">
+          <div> <label for="emailInput">Enter Email</label></div>
+            <input type="email"  class="form-control-sm mt-2"
+            placeholder="enter email" id="floatinInput2" required>
+          </div>
+          <div class="form mb-3">
+          <div> <label for="password">Enter Password</label></div>
+            <input type="password" class="form-control-sm mt-2"
+            placeholder="enter password" id="floatPassword2" required>
+            
+          </div>
+          <div class="mt-3">
+            <button class="btn btn-primary btn-md"> SignUp</button>
+          </div>
+          <div class="mt-3">
+            <span>Already have an account?</span>
+            <button class="btn btn-info login-show"> Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- firebase js -->
+
+  <!-- javascript bootstrap -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!-- jquery -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    overflow-x: hidden;
+}
+ul li a{
+   margin-left: 60px;
+   margin-right: 40px;
+}
+li .login{
+    margin-left: 160px;
+}
+nav{
+    z-index: 99;
+}
+.discover{
+    z-index: 7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-clip: padding-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup-form{
+    display: none;
+}
+
